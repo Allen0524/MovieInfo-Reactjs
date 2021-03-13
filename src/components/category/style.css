@@ -1,0 +1,25 @@
+.category {
+  height: 100%;
+  width: 100vw;
+  color: #fff;
+}
+
+.tags__wrapper {
+  display: flex;
+  width: 90%;
+  padding-top: 120px;
+  margin: 0 auto;
+}
+
+.tag {
+  margin: 10px;
+  padding: 5px;
+  cursor: pointer;
+  border: 1px solid #ff8401;
+  border-radius: 10px;
+}
+
+.tag.active {
+  background-color: #ff8401;
+  color: #fff;
+}

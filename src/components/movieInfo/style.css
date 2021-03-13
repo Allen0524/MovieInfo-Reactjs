@@ -1,0 +1,82 @@
+.movieinfo {
+  height: 100%;
+  width: 100vw;
+  color: #fff;
+  padding-top: 120px;
+  padding-bottom: 20px;
+}
+
+.detail__wrapper {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  background-blend-mode: multiply;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  width: 70%;
+  margin-top: 40px;
+}
+
+.content > div {
+}
+
+.content__img {
+  border-radius: 10px;
+  width: 250px;
+  object-fit: cover;
+}
+
+.content__right {
+  width: 100%;
+}
+
+.content .info {
+  display: flex;
+  width: 100%;
+  margin-left: 20px;
+  align-items: center;
+}
+
+.info__1 {
+  font-size: 22px;
+  flex: 1;
+}
+
+.info__score {
+  font-size: 20px;
+}
+
+.down__wrapper {
+  width: 750px;
+  color: #fff;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.cast__wrapper {
+  margin-top: 50px;
+  width: 100%;
+  background-color: #2c2c2c;
+}
+
+.overview {
+  margin-top: 50px;
+  width: 100%;
+  background-color: #2c2c2c;
+  padding: 20px;
+}
+
+.crew__wrapper {
+  display: flex;
+  margin-top: 20px;
+  border-bottom: 1px solid #8885859f;
+}
+
+.char__wrapper {
+  display: flex;
+  align-items: center;
+}

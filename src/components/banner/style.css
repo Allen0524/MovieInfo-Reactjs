@@ -1,0 +1,69 @@
+.banner {
+  color: white;
+  height: 100vh;
+  object-fit: contain;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.banner h1 {
+  margin: 0;
+}
+
+.banner h2 {
+  font-size: 20px;
+  margin-bottom: 0;
+  height: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 7;
+  /* 超出7行就省略 */
+}
+
+.banner__contents {
+  margin-left: 50px;
+  position: absolute;
+  top: 40%;
+  flex: 1;
+  width: 600px;
+}
+
+.banner__fade {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 15rem;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.6),
+    #111
+  );
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.scroll__area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  cursor: pointer;
+
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+.scrollText {
+  padding-bottom: 5px;
+  color: #baa9d2;
+}
+
+.scroll__area.hidden {
+  opacity: 0;
+}

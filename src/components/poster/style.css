@@ -1,0 +1,55 @@
+.poster {
+  display: flex;
+  margin: 10px 10px 0px 10px;
+  padding: 10px 5px;
+  width: 100%;
+  border-bottom: 1px solid #474747;
+  color: #fff;
+}
+
+.pic__wrapper {
+  padding: 5px 10px 5px 5px;
+  height: 320px;
+  width: 220px;
+}
+
+.poster__right {
+  width: 100%;
+}
+
+.poster__pic {
+  max-height: 305px;
+  object-fit: contain;
+  /* width: 100%; */
+}
+
+.right__title {
+  display: flex;
+  align-items: center;
+  margin: 10px 10px 15px 10px;
+  padding: 5px;
+}
+
+.title-group {
+  flex: 1;
+}
+
+.title {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.engTitle {
+  color: #686868;
+}
+
+.trailer {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 20px;
+  padding: 10px;
+  border: 1px solid #ff8401;
+  border-radius: 5px;
+  box-shadow: 2px 2px #ff84019c;
+  cursor: pointer;
+}

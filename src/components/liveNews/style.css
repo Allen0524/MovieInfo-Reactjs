@@ -1,0 +1,53 @@
+.livenews {
+  height: 100vh;
+  background-image: url('https://images.squarespace-cdn.com/content/v1/5df2b43ab9bd83734d569028/1576932007375-ALBLS1Z3WGOYTWHDSWZQ/ke17ZwdGBToddI8pDm48kA47qaxzGU3oa60Mv3IrElh7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0hGaawTDWlunVGEFKwsEdnE_ZbuhWuTjDl9Hn0Vaidb23CyzgPgNZ_l0zINYXrCLdg/CW45_600x300.jpg?format=2500w');
+  background-color: rgba(0, 0, 0, 0.4);
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+}
+
+.livenews h3 {
+  width: 383px;
+  margin: 0 auto;
+  padding: 100px 0 50px 0;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  color: rgb(214, 160, 59);
+}
+
+.owl-theme {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.item {
+  height: 480px;
+  width: 280px;
+  margin: 0;
+}
+
+.item__img {
+  width: inherit;
+  height: 380px;
+  margin: 0;
+}
+.item__img > img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.item__desc {
+  padding-top: 10px;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}
+
+.owl-nav span {
+  color: white;
+  display: block;
+  width: 30px;
+}
