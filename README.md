@@ -3,9 +3,9 @@
 
 ## Demo
 
-[Demo](https://allen-movie-info.netlify.app/)
+[Link](https://allen-movie-info.netlify.app/)
 
-### skills
+## skills
 
 1. TMDB API
 2. React hooks
@@ -13,7 +13,7 @@
 4. Pagination
 5. react-owl-carousel
 
-### Features
+## Features
 
 1. 查詢電影
 2. 影音類別篩選
