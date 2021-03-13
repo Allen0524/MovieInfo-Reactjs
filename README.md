@@ -5,11 +5,13 @@
 
 [Demo](https://allen-movie-info.netlify.app/)
 
-### Info.
+### skills
 
 1. TMDB API
 2. React hooks
 3. React-router
+4. Pagination
+5. react-owl-carousel
 
 ### Features
 
